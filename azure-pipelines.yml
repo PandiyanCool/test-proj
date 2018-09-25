@@ -15,5 +15,5 @@ steps:
 - script: |
     npm install -g @angular/cli
     npm install
-    ng build --prod --base-href /test-proj/ 
+    ng build --prod --base-href /test-proj/ --output-path=dist
   displayName: 'npm install and build'
